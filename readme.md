@@ -51,7 +51,7 @@ Cast.cast(object, Integer.class, (integer) -> {
     System.out.println("Object is an integer!");
     // do stuff with the integer
 })
-.orThrow(new IllegalArgumentException("The object is not an integer");
+.orThrow(new IllegalArgumentException("The object is not an integer"));
 ```
 
 **Else branch**
